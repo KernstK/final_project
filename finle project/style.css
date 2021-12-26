@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site{
+    width: 100%;
+}
+.stick{
+    width: 1px;
+    height: 40px;
+    background: gray;
+    margin: 0px 30px 0px 30px;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.logo{
+    width: 130px;
+    height: 72px;
+}
+.valute{
+    width: 35px;
+    height: 50px;
+    text-align: center;
+}
+.UA{
+    margin: auto;
+    width: 35px;
+}
+.RU{
+    margin: auto;
+    width: 35px;
+}
+.UA:hover{
+    background-color: #4AD295;
+    border-radius: 5px;
+}
+.RU:hover{
+    background-color: #4AD295;
+    border-radius: 5px;
+}
+.social_network{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fa-facebook-f{
+    font-size: 20px;
+}
+.fa-instagram{
+    font-size: 20px;
+}
+.fa-youtube{
+    font-size: 20px;
+}
+.phone{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.red_button{
+    width: 240px;
+    height: 55px;
+    display: flex;
+}
+.grey_block{
+    width: 185px;
+    height: 100%;
+    background-color: #EFF3F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0px 0px 8px;
+}
+.grey_block span{
+    text-transform: uppercase;
+}
+.red_block{
+    width: 55px;
+    height: 100%;
+    background-color: #DD4053;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 8px 8px 0px;
+}
+.green_button{
+    width: 240px;
+    height: 55px;
+    display: flex;
+    margin-left: 30px;
+}
+.grey_block_1{
+    width: 185px;
+    height: 100%;
+    background-color: #EFF3F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 0px 0px 8px;
+}
+.grey_block_1 span{
+    text-transform: uppercase;
+}
+.green_block{
+    width: 55px;
+    height: 100%;
+    background-color:#4AD295;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 8px 8px 0px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu div{
+    text-align: center;
+    width: 130px;
+    height: 50px;
+}
+.menu > ul{
+    display: flex;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    color: #C4C4C4;
+    padding: 10px;
+}
+.menu ul ul{
+    display: none;
+    position: absolute;
+}
+.menu a:hover{
+    color: black;
+}
+.menu a:focus{
+    color: black;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul li{
+    display: block;
+    position: relative;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url(./img/хорватия_1.png)no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_box_content{
+    width: 950px;
+    height: 300px;
+}
+.price span{
+    padding: 10px;
+}
+.banner_box_content h1{
+    text-transform: uppercase;
+}
+.price{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.banner_button{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 15px;
+}
+.banner_button a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.banner_button a:hover{
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+}
+.banner_button:hover{
+    opacity: 80%;
+}
+
+.content{
+    width: 100%;
+    height: 250px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_box{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+.content_button{
+    width: 100%;
+    height: 50px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+/* .content_button_1{
+    background-color:#BDBDBD;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.content_button_2{
+    background-color: #F8F8F8;
+    color: #BDBDBD;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.content_button_1 a{
+    color: white;
+    background-color: #BDBDBD;
+    padding: 15px 44px;
+    text-decoration: none;
+}
+.content_button_1 a:hover{
+    background-color: #F8F8F8;
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD;
+}
+.content_button_2 a{
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD;
+    padding: 15px 44px;
+    text-decoration: none;
+}
+.content_button_2 a:hover{
+    background-color: #BDBDBD;
+    color: white;
+}
+.block_right{
+    justify-content: center;
+}
+.block_1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.block_2{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.block_3{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid #BDBDBD;
+}
+.hend{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.heart{
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+.block_1 span{
+    margin-left: 50px;
+}
+.block_2 span{
+    margin-left: 50px;
+}
+.block_3 span{
+    margin-left: 50px;
+}
+
+.content_2{
+    width: 100%;
+    height: 100%;
+}
+.content_2_head{
+    width: 100%;
+    height: 100px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krug_1{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    border: 1px solid #C6C6C6;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.krug_2{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_2_head hr{
+    width: 250px;
+    height: 1px;
+    margin-left: 60px;
+}
+.all_hotel_button{
+    width: 140px;
+    height: 45px;
+    margin-left: 30px;
+    border: 1px solid #969696;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.all_hotel_button a{
+    color: #969696;
+    text-decoration: none;
+}
+.all_hotel_button:hover{
+    background-color: #969696;
+}
+.best_hotel_img{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.img_1{
+    width: 450px;
+    height: 100%;
+    background: url(./img/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png);
+}
+.img_2{
+    width: 450px;
+    height: 100%;
+    background: url(./img/276398231\ 2.png);
+}
+.img_3{
+    width: 450px;
+    height: 100%;
+    background: url(./img/c41c4172\ 1.png);
+}
+.title{
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    opacity: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best_tours_head{
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.best_tours_head hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 1px;
+}
+.all_tour_button{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #969696;
+    border-radius: 5px;
+}
+.all_tour_button a{
+    color: #969696;
+    text-decoration: none;
+}
+.all_tour_button:hover{
+    background-color: #969696;
+}
+.box_circle{
+    width: 50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 155px;
+}
+.card_box{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box_circle_2{
+    width: 100%;
+    height: 120px;
+}
+.card_circle_1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #C6C6C6;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_circle_2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+    background-color:#F8F8F8;  
+}
+.hr_1{
+    margin-top: 60px;
+}
+.hr_2{
+    margin-top: 37px;
+}
+.price_hotel{
+    width: 100%;
+    height: 100%;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+}
+.price_hotel_text_1 {
+    width: 160px;
+    height: 80px;
+    margin-left: 10px;
+}
+.price_hotel_text_1 h5{
+    color: #DD4053;
+}
+.price_hotel_text_1 p{
+    color:#C9C9C9;
+}
+
+.price_hotel_text_2 {
+    width: 80px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.regestration{
+    width: 70%;
+    height: 140px;
+    background-color: #F8F8F8;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid #969696;
+}
+.block_regestration{
+    width: 90%;
+    height: 80px;
+}
+.regestration_inner_1{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.regestration_inner_2{
+    width: 100%;
+    height: 50px;
+    display: flex
+}
+.name{
+    border: 1px solid #2E2E2E;
+    height: 30px;
+}
+.sity{
+    width: 125px;
+    height: 100%;
+}
+.selection_1{
+    width: 155px;
+    height: 100%;
+    border-right: none;
+}
+.selection_2{
+    width: 155px;
+    height: 100%;
+    border-left: none;
+}
+.tourists{
+    width: 180px;
+    text-align: center;
+}
+.button_search{
+    background-color: #DD4053;
+    width: 135px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.fa-compass{
+    font-size: 20px;
+}
+.fa-map-marker-alt{
+    font-size: 20px;
+    margin-left: 55px;
+}
+.fa-calendar-check{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.fa-user{
+    font-size: 20px;
+    margin-left: 125px;
+}
+.fa-clock{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.selection_3{
+    width: 90px;
+    border-right: none;
+}
+.selection_4{
+    width: 90px;
+    border-left: none;
+}
+.button_search a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.button_search a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.news{
+    width: 100%;
+    height: 620px;
+    background-color: #F8F8F8;
+}
+.news_head{
+    width: 100%;
+    height: 100px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news_head hr{
+    width: 340px;
+    height: 1px;
+    margin-left: 60px;
+    color: #525252;
+}
